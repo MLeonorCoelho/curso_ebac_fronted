@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(207, 203, 203);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, ul{
+    padding: 24px 0;
+    text-align: center;
+}
+
+form input, button{
+    font-size: 18px;
+}
+
+
+button{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+li {
+    text-align: left;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right: 35%;
+    list-style-type: none;
+}
+
+
+input:checked + label {
+    text-decoration: line-through;
+}
+

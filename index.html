@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> Lista de Tarefas</h1>
+    </header>
+    <form>
+        <input type="text" id="nova-tarefa" required placeholder="Nome da Tarefa"/>
+        <button type="submit">Cadastrar</button>        
+    </form>
+    <ul>
+        <li>
+            <input type="checkbox" value="done"/>
+            <label for="done">Limpar a casa</label>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
