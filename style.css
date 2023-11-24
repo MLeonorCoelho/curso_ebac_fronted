@@ -30,8 +30,7 @@ li {
     list-style-type: none;
 }
 
-
-input:checked + label {
+.selected {
     text-decoration: line-through;
 }
 
