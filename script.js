@@ -8,15 +8,19 @@ $(document).ready(function () {
 
       const novaLinha = $('<li></li>')
 
-      $(`<input type="checkbox" value="${novaTarefa}"/>
-      <label for="${novaTarefa}">${novaTarefa}</label>`).appendTo(novaLinha);
+      $(`<p>${novaTarefa}</p>`).appendTo(novaLinha);
 
 
       $(`${novaTarefa}`).appendTo(novaLinha);
 
         $(novaLinha).appendTo('ul');
       $('#nova-tarefa').val(' ');
+
+
+      $('li').click(function() {
+        $(this).addClass('selected');
+    });
     
     })
-  });
-  
+});
+
